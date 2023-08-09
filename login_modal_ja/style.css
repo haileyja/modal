@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.ck-hide {
+    position: absolute;
+    overflow: hidden;
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: transparent;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    height: fit-content;
+    margin: auto;
+    width: 520px;
+    border-radius: 10px;
+    background:  #FFFFFF;
+    border: 1px solid #000;
+}
+
+
+
+.header h1{
+    position: relative;
+    text-align: center;
+    font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+    padding: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 22px;
+    transform: translate(0, -30px);
+}
+
+.main {
+   
+    padding: 26px 24px 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'SpoqaHanSansNeo-Regular',sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 26px 24px ;
+}
+
+.login-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-id,
+.user-pw {
+    width: 440px;
+    padding: 15px 16px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+
+ .form-login .checkbox-hold {
+     display: inline-block;
+     height: 22px;
+     margin: 17px 0 21px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     color: #767676;
+     cursor: pointer;
+ }
+
+ .form-login .checkbox-hold::before {
+     display: inline-block;
+     content: "";
+     width: 22px;
+     height: 22px;
+     margin-right: 8px;
+     vertical-align: -5px;
+     background-image: url('./images/check-box.png');
+ }
+
+ .form-login .checkbox:focus-visible+.checkbox-hold::before {
+     outline: 2px solid #000;
+     outline-offset: 5px;
+ }
+
+ .form-login .checkbox:checked+.checkbox-hold::before {
+     background-image: url("./images/check-box.png") ;
+
+ }
+
+
+/* 로그인 버튼 */
+.btn {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: #2F80ED;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.join{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.join span {
+    display: inline-block;
+    color: #767676;
+    margin: 0 12px;
+}
+
+.line {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    color: #767676;
+    font-size: 14px;
+}
+
+.line::before,
+.line::after {
+    content: "";
+    display: inline-block;
+    background-color: #C4C4C4;
+    width: 210px;
+    height: 1px;
+}
+
+/* sns section */
+
+  .sns-icon {
+    display: block;
+    padding: 15px 14px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #767676;
+    margin-top: 10px;
+}
+
+[class^="sns"]::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 28px;
+    height: 28px;
+}
+
+
+.sns-icon.link-google {
+    border: 1px solid #767676;
+}
+
+.sns-icon.link-facebook {
+    border: 1px solid #2D9CDB;
+}
+
+.sns-icon.link-naver {
+    border: 1px solid #00BF18;
+}
+
+.sns-icon.link-kakao {
+    border: 1px solid #F2C94C;
+}
+
+.link-google::before {
+    background: url('./images/Google__G__Logo\ 1.png');
+}
+
+.link-naver::before {
+    background: url('./images/naver-logo.png') ;
+}
+
+.link-kakao::before {
+    background: url('./images/message-circle.png') ;
+}
+
+.link-facebook::before {
+    background: url('./images/facebook.png') ;
+
+}
