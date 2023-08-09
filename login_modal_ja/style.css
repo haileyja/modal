@@ -6,7 +6,7 @@
     font-weight: inherit;
     box-sizing: border-box;
 }
-
+     
 ol,
 ul {
     list-style: none;
@@ -17,7 +17,7 @@ ul {
     overflow: hidden;
     clip-path: inset(50%);
     width: 1px;
-    height: 1px;
+    height: 1px; 
 }
 
 @font-face {
@@ -46,7 +46,7 @@ button {
 
 
 
-.header h1{
+.header h1 {
     position: relative;
     text-align: center;
     font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
