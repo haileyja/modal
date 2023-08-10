@@ -109,7 +109,7 @@ h2 {
      height: 22px;
      margin-right: 8px;
      vertical-align: -5px;
-     background-image: url('./images/check-box.png');
+     background-image: url('./login_modal_ja/images/check-box.png');
  }
 
  .form-login .checkbox:focus-visible+.checkbox-hold::before {
@@ -118,7 +118,7 @@ h2 {
  }
 
  .form-login .checkbox:checked+.checkbox-hold::before {
-     background-image: url("./images/check-box.png") ;
+     background-image: url("./login_modal_ja/images/check-box.png") ;
 
  }
 
@@ -204,18 +204,18 @@ h2 {
 }
 
 .link-google::before {
-    background: url('./images/Google__G__Logo\ 1.png');
+    background: url('./login_modal_ja/images/Google__G__Logo\ 1.png');
 }
 
 .link-naver::before {
-    background: url('./images/naver-logo.png') ;
+    background: url('./login_modal_ja/images/naver-logo.png') ;
 }
 
 .link-kakao::before {
-    background: url('./images/message-circle.png') ;
+    background: url('./login_modal_ja/images/message-circle.png') ;
 }
 
 .link-facebook::before {
-    background: url('./images/facebook.png') ;
+    background: url('./login_modal_ja/images/facebook.png') ;
 
 }
